@@ -1,0 +1,14 @@
+.table {
+  padding: 36px 0 150px 0;
+}
+
+.buttonsTableCell {
+  padding: 12px
+}
+
+.button {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

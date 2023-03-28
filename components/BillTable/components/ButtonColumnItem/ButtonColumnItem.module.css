@@ -1,0 +1,11 @@
+.buttonsLayout {
+  display: flex;
+  align-items: center;
+  gap: 14.5px;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}

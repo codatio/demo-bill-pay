@@ -1,0 +1,31 @@
+.topContainer {
+  margin-top: 32px;
+}
+
+.inlineFields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.checkboxRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.checkboxTypography {
+  margin: 4px 8px 4px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.text14px {
+  font-size: 14px;
+}
+
+.helperText {
+  font-size: 10px;
+  margin-bottom: 16px;
+}
