@@ -1,6 +1,10 @@
-# bill-pay-demo
+# demo-bill-pay
 
-This project is a Next.js app developed by Theodo UK. This Codat Demo is used to show the bill payment functionality from the Codat API. More specifically, it demonstrates how we can manage bill payments of apps like Quickbooks Sandbox.
+This demo shows how you could build a bill pay solution with Codat. It demonstrates how we can manage bill payments of apps like Quickbooks Sandbox.
+
+See it in action - <https://demo-bill-pay.vercel.app>
+
+---
 
 ## Getting started
 
