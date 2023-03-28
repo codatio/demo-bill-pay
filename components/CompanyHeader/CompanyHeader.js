@@ -19,7 +19,7 @@ export const CompanyHeader = () => {
           }}
           variant="h3"
         >
-          CoBank
+          Copay
         </Typography>
       </div>
       <Button label="Logout" onClick={() => handleLogout()} />

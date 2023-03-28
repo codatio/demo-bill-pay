@@ -6,18 +6,7 @@ import { Typography } from "@codat/orchard-ui";
 export const Footer = () => {
   return (
     <div className={s.footerContainer}>
-      <Typography
-        style={{
-          margin: 0,
-          color: "#ffffff",
-          fontSize: "16px",
-          fontWeight: "400",
-        }}
-        variant="small"
-      >
-        Engineered by Theodo
-      </Typography>
-      <TheodoLogo />
+      See more in our <a href="https://docs.codat.io/" target="_blank">docs</a>
     </div>
   );
 };
