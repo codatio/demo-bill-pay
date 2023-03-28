@@ -18,7 +18,6 @@ This project is a Next.js app developed by Theodo UK. This Codat Demo is used to
 
 To ensure that you can run the development server, make sure that the following are installed:
 - `npm -v 16.9.0`
-- `next -v 10` (needed?)
 
 To install all the dependencies:
 
