@@ -8,7 +8,9 @@ This project is a Next.js app developed by Theodo UK. This Codat Demo is used to
 
 #### In Codat...
 
-You should have a Codat account connected to the source that you want. For example to connect your Codat account to a Quickbooks Sandbox, follow [our docs](https://docs.codat.io/integrations/accounting/quickbooksonline/accounting-quickbooksonline-new-setup).
+1. Set up integrations
+  You should have a Codat account connected to the source that you want. For example to connect your Codat account to a Quickbooks Sandbox, follow [our docs](https://docs.codat.io/integrations/accounting/quickbooksonline/accounting-quickbooksonline-new-setup).
+2. Set up redirects
 
 #### Dependencies
 
@@ -25,10 +27,10 @@ npm install
 Create a `.env` file (you can copy the `.env.example` file and rename it). 
 
 ```
-CODAT_BASIC_AUTH="Basic MarxMnVNSEdXREVwQTI2Qk1seE5lQzAzcnhGZHNBZzFiYUxKeFRXQQ=="
+CODAT_AUTH_HEADER="Basic MarxMnVNSEdXREVwQTI2Qk1seE5lQzAzcnhGZHNBZzFiYUxKeFRXQQ=="
 ```
 
-Replace the `CODAT_BASIC_AUTH` value wuth your auth header. You can find this [in the Portal](https://app.codat.io/developers/api-keys).
+Replace the `CODAT_AUTH_HEADER` value wuth your auth header. You can find this [in the Portal](https://app.codat.io/developers/api-keys).
 
 #### Run the project
 
