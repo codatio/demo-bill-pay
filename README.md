@@ -20,7 +20,10 @@ See it in action - <https://demo-bill-pay.vercel.app>
 #### Dependencies
 
 To ensure that you can run the development server, make sure that the following are installed:
-- `npm -v 16.9.0`
+
+```bash
+node -v 16.9.0
+```
 
 To install all the dependencies:
 
@@ -28,13 +31,13 @@ To install all the dependencies:
 npm install
 ```
 
-Create a `.env` file (you can copy the `.env.example` file and rename it). 
+Create a `.env` file (you can copy the `.env.example` below). 
 
 ```
 CODAT_AUTH_HEADER="Basic MarxMnVNSEdXREVwQTI2Qk1seE5lQzAzcnhGZHNBZzFiYUxKeFRXQQ=="
 ```
 
-Replace the `CODAT_AUTH_HEADER` value with your auth header. You can find this [in the Portal](https://app.codat.io/developers/api-keys).
+Replace the `CODAT_AUTH_HEADER` value with your Authorization header. You can find this [in the Codat Portal](https://app.codat.io/developers/api-keys).
 
 #### Run the project
 
@@ -44,5 +47,6 @@ To run the development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to view the demo app UI and try it out.
 
+![demo-bill-pay-app](https://user-images.githubusercontent.com/20324857/231200627-80b6645f-7e63-4c6f-adc7-ad87d79d1777.jpg)
