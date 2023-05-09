@@ -2,7 +2,7 @@
 
 This demo shows how you could build a bill pay solution with Codat. It demonstrates how we can manage bill payments of apps like Quickbooks Sandbox.
 
-See it in action - <https://demo-bill-pay.vercel.app>
+[**Click here to see it in action**](https://demo-bill-pay.vercel.app)
 
 
 [![Billpay Demo Video](https://img.youtube.com/vi/7US9K6EUzF4/0.jpg)](https://www.youtube.com/watch?v=7US9K6EUzF4)
