@@ -37,7 +37,7 @@ export const ViewModal = ({
         <div className={s.topSection}>
           <div className={s.title}>
             <TitleWithSubHeadings
-              mainTitle="Invoice"
+              mainTitle="Bill"
               lowerTitle={bill.reference ?? bill.id}
               mainTitleCustomFontSize="33px"
             />
