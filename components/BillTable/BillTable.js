@@ -73,7 +73,7 @@ export const BillTable = ({
           >
             <TableHead>
               <TableRow>
-                <FormattedCell text="Date" colour="#5f6374" fontSize="14px" />
+                <FormattedCell text="Issue date" colour="#5f6374" fontSize="14px" />
                 <FormattedCell
                   text="Supplier"
                   colour="#5f6374"
