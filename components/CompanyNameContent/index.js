@@ -30,31 +30,32 @@ export const CompanyNameContent = () => {
   };
 
   const onFinish = () => {
-    console.log('DONE')
     setModalOpen(false)
     router.push('/connection-successful')
   }
 
   return (
-    <div>
-      <Typography variant="h2">Enter your company name</Typography>
+    <div className={s.wrapper}>
+      <div className={s.container}>
+        <Typography variant="h2">Enter your company name</Typography>
 
-      <div className={s.inputContainer}>
-        <div className={s.textInputContainer}>
-          <TextInput
-            id="company-name"
-            placeholder="e.g. Pete's Pies"
-            value={companyName}
-            onChange={(event) => setCompanyName(event.target.value)}
-          />
-        </div>
+        <div className={s.inputContainer}>
+          <div className={s.textInputContainer}>
+            <TextInput
+              id="company-name"
+              placeholder="e.g. Pete's Pies"
+              value={companyName}
+              onChange={(event) => setCompanyName(event.target.value)}
+            />
+          </div>
 
-        <div>
-          <Button
-            label="Next"
-            className={s.button}
-            onClick={handleCreateCompany}
-          />
+          <div>
+            <Button
+              label="Next"
+              className={s.button}
+              onClick={handleCreateCompany}
+            />
+          </div>
         </div>
       </div>
 

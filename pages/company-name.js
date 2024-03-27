@@ -1,6 +1,5 @@
 import { Footer } from "../components/Footer";
 import { CompanyNameContent } from "../components/CompanyNameContent";
-import Box from "@mui/material/Box";
 import { companyNameStyling } from "../styles/CompanyName.styling";
 import Head from "next/head";
 
@@ -15,9 +14,7 @@ export default function CompanyName() {
       
       <style>{"body { background-color: #f7f8ff; }"}</style>
       
-      <Box sx={companyNameStyling}>
-        <CompanyNameContent />
-      </Box>
+      <CompanyNameContent />
 
       <Footer />
     </>
