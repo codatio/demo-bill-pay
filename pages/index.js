@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Box from "@mui/material/Box";
 import { landingPageBoxStyling } from "../styles/LandingPage.styling";
-import { LandingPageContent } from "../components/LandingPageContent/LandingPageContent";
+import { LandingPageContent } from "../components/LandingPageContent";
 import { Footer } from "../components/Footer";
 
 export default function Home() {

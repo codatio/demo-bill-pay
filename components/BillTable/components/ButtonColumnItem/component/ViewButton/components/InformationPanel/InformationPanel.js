@@ -2,7 +2,7 @@ import React from "react";
 import Divider from "@mui/material/Divider";
 import { StyledEngineProvider } from "@mui/material/styles";
 import s from "./InformationPanel.module.css";
-import { SpaceBetweenDataPoint } from "../../../../../../../SpaceBetweenDataPoint/SpaceBetweenDataPoint";
+import { SpaceBetweenDataPoint } from "../../../../../../../SpaceBetweenDataPoint";
 import { getFormattedDate } from "../../../../../../BillTable.helpers";
 
 export const InformationPanel = ({ billData }) => {

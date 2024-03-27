@@ -1,7 +1,7 @@
 import { TextLink } from "@codat/orchard-ui";
 import React from "react";
 import s from "./ViewButton.module.css";
-import { BillModalContext } from "../../../../../ModalStore/ModalStore";
+import { BillModalContext } from "../../../../../ModalStore";
 import { useContext } from "react";
 
 export const ViewButton = ({ args, billData }) => {

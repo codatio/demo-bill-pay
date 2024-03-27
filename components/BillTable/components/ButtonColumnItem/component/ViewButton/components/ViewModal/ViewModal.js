@@ -4,13 +4,13 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import { IconButton } from "@mui/material";
 import { modalStyling, closeButtonStyling } from "../../../../Modal.styling";
-import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings/TitleWithSubHeadings";
+import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings";
 import Divider from "@mui/material/Divider";
 import { InformationPanel } from "../../components/InformationPanel/InformationPanel";
 import { CloseIcon, Button } from "@codat/orchard-ui";
 import { BillItemInformationTable } from "../BillItemInformationTable/BillItemInformationTable";
 import { TotalBreakDownTable } from "../TotalBreakdownTable/TotalBreakdownTable";
-import { BillModalContext } from "../../../../../../../ModalStore/ModalStore";
+import { BillModalContext } from "../../../../../../../ModalStore";
 
 export const ViewModal = ({
   isViewModalOpen,

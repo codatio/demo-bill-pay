@@ -7,7 +7,7 @@ import TablePagination from "@mui/material/TablePagination";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import { ButtonColumnItem } from "./components/ButtonColumnItem/ButtonColumnItem";
+import { ButtonColumnItem } from "./components/ButtonColumnItem";
 import { ViewModal } from "./components/ButtonColumnItem/component/ViewButton/components/ViewModal/ViewModal";
 import { PayModal } from "./components/ButtonColumnItem/component/PayButton/components/PayModal/PayModal";
 import s from "./BillTable.module.css";
@@ -16,7 +16,7 @@ import {
   getFormattedDate,
   FormattedCell,
 } from "./BillTable.helpers";
-import { BillModalContext } from "../ModalStore/ModalStore";
+import { BillModalContext } from "../ModalStore";
 
 export const BillTable = ({
   billData,
