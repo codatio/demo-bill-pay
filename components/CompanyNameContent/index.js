@@ -4,11 +4,14 @@ import "../../node_modules/@codat/orchard-ui/dist/index.css";
 import s from "./CompanyNameContent.module.css";
 import axios from "axios";
 import { CodatLink } from "../CodatLink";
+import { useRouter } from 'next/router'
 
 export const CompanyNameContent = () => {
   const [companyName, setCompanyName] = useState("");
   const [companyId, setCompanyId] = useState("");
   const [modalOpen, setModalOpen] = useState(false)
+
+  const router = useRouter()
 
   const handleCreateCompany = () => {
     if (companyName !== "") {
@@ -19,13 +22,18 @@ export const CompanyNameContent = () => {
       results.then(function (result) {
         sessionStorage.setItem("companyId", result.data.id);
         setCompanyId(result.data.id)
-        //setModalOpen(true)
-        //window.location.href = result.data.redirect;
+        setModalOpen(true)
       });
     } else {
       return null;
     }
   };
+
+  const onFinish = () => {
+    console.log('DONE')
+    setModalOpen(false)
+    router.push('/connection-successful')
+  }
 
   return (
     <div>
@@ -40,6 +48,7 @@ export const CompanyNameContent = () => {
             onChange={(event) => setCompanyName(event.target.value)}
           />
         </div>
+
         <div>
           <Button
             label="Next"
@@ -53,10 +62,9 @@ export const CompanyNameContent = () => {
         <div className={s.modalWrapper}>
           <CodatLink
             companyId={companyId}
-            // onConnection={onConnection}
-            // onError={onError}
-            // onClose={onClose}
-            // onFinish={onFinish}
+            onError={() => setModalOpen(false)}
+            onClose={() => setModalOpen(false)}
+            onFinish={onFinish}
           />
         </div>
       )}

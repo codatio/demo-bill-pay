@@ -158,7 +158,7 @@ export default function Bills() {
                   <Switch
                     size="small"
                     checked={isFilteredBills}
-                    onChange={() => handleSwitchChange()}
+                    onChange={handleSwitchChange}
                   />
                 </div>
               </div>

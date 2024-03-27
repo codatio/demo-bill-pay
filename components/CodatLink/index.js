@@ -5,9 +5,7 @@ import React, { useEffect, useState } from "react";
 import { initializeCodatLink } from "@codat/sdk-link-types";
 
 export const CodatLink = (props) => {
-  const [componentMount, setComponentMount] = useState(
-    null
-  );
+  const [componentMount, setComponentMount] = useState(null);
 
   useEffect(() => {
     const target = componentMount;
