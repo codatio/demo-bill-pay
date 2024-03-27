@@ -16,3 +16,13 @@
   flex-grow: 0;
   margin: 0;
 }
+
+.footerLink {
+  color: white;
+  margin-left: 0.25em;
+  text-decoration: underline;
+}
+
+.footerLink:hover {
+  opacity: 0.5;
+}

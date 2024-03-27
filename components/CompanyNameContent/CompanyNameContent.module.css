@@ -19,3 +19,13 @@
   width: 100%;
   margin-right: 16px;
 }
+
+.modalWrapper {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { Checkbox, TextInput, Typography } from "@codat/orchard-ui";
 import s from "./PayModalFields.module.css";
-import { CardIcon } from "../../../../../../../CardIcon/CardIcon";
+import { CardIcon } from "../../../../../../../CardIcon";
 import { AccountNameField } from "../AccountNameField/AccountNameField";
 
 export const PayModalFields = ({ billData, accountData, setAccountId }) => {
