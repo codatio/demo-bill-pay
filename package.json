@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@codat/orchard-ui": "^3.3.1",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@codat/sdk-link-types": "^1.2.0",
-    "eslint": "7.32.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.10.0",
     "prettier": "^2.8.8"
   }
