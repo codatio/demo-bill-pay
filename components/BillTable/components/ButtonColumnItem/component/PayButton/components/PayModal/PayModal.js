@@ -9,7 +9,6 @@ import { DotDataPoint } from "../../../../../../../DotDataPoint";
 import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings";
 import { PayModalFields } from "../PayModalFields/PayModalFields";
 import { BillModalContext } from "../../../../../../../ModalStore";
-import "../../../../../../../../node_modules/@codat/orchard-ui/dist/index.css";
 import { getFormattedAmount } from "../../../../../../BillTable.helpers";
 import { modalStyling, closeButtonStyling } from "../../../../Modal.styling";
 import s from "./PayModal.module.css";

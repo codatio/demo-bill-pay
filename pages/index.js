@@ -11,7 +11,7 @@ export default function Home() {
       <style>{"body { background-color: #f7f8ff; }"}</style>
 
       <Head>
-        <title>Bill Pay</title>
+        <title>Automate bill payments | Codat</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
