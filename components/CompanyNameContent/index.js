@@ -1,11 +1,16 @@
 "use client"
 
 import { useState } from "react";
-import { Button, TextInput, Typography } from "../Orchard";
-import s from "./CompanyNameContent.module.css";
-import axios from "axios";
-import { CodatLink } from "../CodatLink";
 import { useRouter } from 'next/router'
+import axios from "axios";
+
+import s from "./CompanyNameContent.module.css";
+
+import { CodatLink } from "../CodatLink";
+
+import Typography from '@mui/material/Typography';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 export const CompanyNameContent = () => {
   const [companyName, setCompanyName] = useState("");
@@ -38,24 +43,29 @@ export const CompanyNameContent = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
-        <Typography variant="h2">Enter your company name</Typography>
+        <Typography variant="h4">{ "Enter your company's name" }</Typography>
 
         <div className={s.inputContainer}>
           <div className={s.textInputContainer}>
-            <TextInput
+            <TextField
               id="company-name"
+              variant="outlined"
+              fullWidth
               placeholder="e.g. Pete's Pies"
               value={companyName}
+              size="small"
               onChange={(event) => setCompanyName(event.target.value)}
             />
           </div>
 
           <div>
             <Button
-              label="Next"
+              variant="outlined"
               className={s.button}
               onClick={handleCreateCompany}
-            />
+            >
+              Next
+            </Button>
           </div>
         </div>
       </div>

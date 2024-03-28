@@ -2,12 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-//import { initializeCodatLink } from "@codat/sdk-link-types";
-import dynamic from 'next/dynamic'
- 
-const DynamicLink = dynamic(() => import('@codat/sdk-link-types'), {
-  ssr: false,
-})
+import { initializeCodatLink } from "@codat/sdk-link-types";
 
 export const CodatLink = (props) => {
   const [componentMount, setComponentMount] = useState(null);
@@ -15,7 +10,7 @@ export const CodatLink = (props) => {
   useEffect(() => {
     const target = componentMount;
     if (target && target.children.length === 0) {
-      DynamicLink.initializeCodatLink(target, props);
+      initializeCodatLink(target, props);
     }
     // CodatLink does not support changing props after initialisation.
     // eslint-disable-next-line react-hooks/exhaustive-deps

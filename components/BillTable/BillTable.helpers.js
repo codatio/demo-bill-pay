@@ -1,6 +1,6 @@
 import moment from "moment";
 import getSymbolFromCurrency from "currency-symbol-map";
-import { Typography } from "../Orchard";
+import Typography from '@mui/material/Typography';
 import TableCell from "@mui/material/TableCell";
 
 export const getFormattedAmount = (unformattedSymbol, unformattedAmount) => {

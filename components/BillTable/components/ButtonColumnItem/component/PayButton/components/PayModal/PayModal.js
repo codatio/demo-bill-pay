@@ -1,16 +1,22 @@
 import React, { useContext, useState, useEffect } from "react";
+
 import axios from "axios";
-import { Button } from "../Orchard";
-import { CloseIcon } from "../Orchard";
+
+import Button from '@mui/material/Button';
+import CloseIcon from '@mui/icons-material/Close';
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
-import { Divider, IconButton, CircularProgress } from "@mui/material";
+import Divider from "@mui/material/Divider";
+import IconButton from "@mui/material/IconButton";
+import CircularProgress from "@mui/material/CircularProgress";
+
 import { DotDataPoint } from "../../../../../../../DotDataPoint";
 import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings";
 import { PayModalFields } from "../PayModalFields/PayModalFields";
 import { BillModalContext } from "../../../../../../../ModalStore";
 import { getFormattedAmount } from "../../../../../../BillTable.helpers";
 import { modalStyling, closeButtonStyling } from "../../../../Modal.styling";
+
 import s from "./PayModal.module.css";
 
 export const PayModal = ({

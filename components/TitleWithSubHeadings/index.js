@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import s from "./TitleWithSubHeadings.module.css";
-import { Typography } from "../Orchard";
+import Typography from '@mui/material/Typography';
 
 export const TitleWithSubHeadings = ({
   mainTitle,

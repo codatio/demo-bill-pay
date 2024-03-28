@@ -1,6 +1,10 @@
 import React from "react";
+
 import s from "./CompanyHeader.module.css";
-import { BankIcon, Typography, Button } from "../Orchard";
+
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 export const CompanyHeader = () => {
   const handleLogout = () => {

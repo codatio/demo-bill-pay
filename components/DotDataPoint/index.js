@@ -1,4 +1,4 @@
-import { Typography } from "../Orchard";
+import Typography from '@mui/material/Typography';
 import React from "react";
 import s from "./DotDataPoint.module.css";
 

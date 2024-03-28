@@ -2,14 +2,18 @@ import axios from "axios";
 import useSWR from "swr";
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
+
 import { CompanyHeader } from "../components/CompanyHeader";
 import { TitleWithSubHeadings } from "../components/TitleWithSubHeadings";
 import { BillTable } from "../components/BillTable";
 import { Footer } from "../components/Footer";
+
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
-import { Switch } from "@mui/material";
-import { Spinner, Typography } from "../Orchard";
+import Switch from "@mui/material/Switch";
+import Typography from '@mui/material/Typography';
+import CircularProgress from '@mui/material/CircularProgress';
+
 import s from "../styles/Bills.module.css";
 import { boxStyling } from "../styles/Bills.styling";
 
@@ -184,7 +188,7 @@ export default function Bills() {
             <style>{"body { background-color: #f7f8ff; }"}</style>
             <div className={s.spinner}>
               <Typography variant="h2">Finding your bills...</Typography>
-              <Spinner />
+              <CircularProgress />
             </div>
           </Box>
           <Footer />

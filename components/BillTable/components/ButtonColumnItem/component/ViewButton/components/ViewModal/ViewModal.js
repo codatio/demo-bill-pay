@@ -1,13 +1,18 @@
 import React, { useContext } from "react";
+
 import s from "./ViewModal.module.css";
+
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { IconButton } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
+import Divider from "@mui/material/Divider";
+import Button from '@mui/material/Button';
+import CloseIcon from '@mui/icons-material/Close';
+
 import { modalStyling, closeButtonStyling } from "../../../../Modal.styling";
 import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings";
-import Divider from "@mui/material/Divider";
 import { InformationPanel } from "../../components/InformationPanel/InformationPanel";
-import { CloseIcon, Button } from "../Orchard";
+
 import { BillItemInformationTable } from "../BillItemInformationTable/BillItemInformationTable";
 import { TotalBreakDownTable } from "../TotalBreakdownTable/TotalBreakdownTable";
 import { BillModalContext } from "../../../../../../../ModalStore";

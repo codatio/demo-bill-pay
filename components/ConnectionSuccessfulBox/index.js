@@ -1,12 +1,16 @@
 import React from "react";
 import s from "./ConnectionSuccessfulBox.module.css";
-import { CircleCheckIcon, Typography, Button } from "../Orchard";
+
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 export const ConnectionSuccessfulBox = () => {
   return (
     <div className={s.box}>
       <div className={s.container}>
         <CircleCheckIcon fillColor="green" className={s.circleIcon} />
+
         <Typography
           variant="h2"
           style={{
@@ -16,6 +20,7 @@ export const ConnectionSuccessfulBox = () => {
         >
           Connection Successful
         </Typography>
+
         <Typography
           variant="p"
           style={{
@@ -25,7 +30,8 @@ export const ConnectionSuccessfulBox = () => {
         >
           {"We've connected QuickBooks Online"}
         </Typography>
-        <Button label="Launch Bills Portal" href="/bills" />
+
+        <Button label="See your bills" href="/bills" />
       </div>
     </div>
   );

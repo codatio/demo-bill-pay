@@ -1,20 +1,21 @@
-import { TextLink } from "../Orchard";
-import React from "react";
+import React, { useContext } from "react";
 import s from "./ViewButton.module.css";
+
 import { BillModalContext } from "../../../../../ModalStore";
-import { useContext } from "react";
+
+import Button from '@mui/material/Button';
 
 export const ViewButton = ({ args, billData }) => {
   const { onViewModalOpen } = useContext(BillModalContext);
   return (
     <tr>
       <td>
-        <TextLink
+        <Button
           onClick={() => onViewModalOpen(billData.id)}
           className={s.linkText}
         >
           View
-        </TextLink>
+        </Button>
       </td>
     </tr>
   );

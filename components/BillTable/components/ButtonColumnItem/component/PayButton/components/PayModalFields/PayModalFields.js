@@ -1,5 +1,9 @@
 import React from "react";
-import { Checkbox, TextInput, Typography } from "../Orchard";
+
+import Checkbox from '@mui/material/Checkbox';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+
 import s from "./PayModalFields.module.css";
 import { CardIcon } from "../../../../../../../CardIcon";
 import { AccountNameField } from "../AccountNameField/AccountNameField";
@@ -17,15 +21,18 @@ export const PayModalFields = ({ billData, accountData, setAccountId }) => {
       <Typography variant="small" className={s.text14px}>
         Account name
       </Typography>
+
       <AccountNameField
         billData={billData}
         accountData={accountData}
         setAccountId={setAccountId}
       />
+
       <Typography variant="small" className={s.helperText}>
         Choose an account to make your payment from
       </Typography>
-      <TextInput
+
+      <TextField
         id="card-number"
         label="Card number"
         placeholder="4242 4242 4242 4242"
@@ -33,6 +40,7 @@ export const PayModalFields = ({ billData, accountData, setAccountId }) => {
         onChange={(event) => setCardNumberValue(event.target.value)}
         iconLeft={<CardIcon />}
       />
+      
       <div className={s.inlineFields}>
         <TextInput
           id="expiry-date"
