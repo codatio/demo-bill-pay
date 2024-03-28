@@ -1,4 +1,4 @@
-import { TextLink } from "@codat/orchard-ui";
+import { TextLink } from "../Orchard";
 import React from "react";
 import s from "./ViewButton.module.css";
 import { BillModalContext } from "../../../../../ModalStore";

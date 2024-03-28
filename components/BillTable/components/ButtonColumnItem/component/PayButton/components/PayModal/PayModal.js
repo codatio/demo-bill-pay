@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import axios from "axios";
-import { Button } from "@codat/orchard-ui";
-import { CloseIcon } from "@codat/orchard-ui";
+import { Button } from "../Orchard";
+import { CloseIcon } from "../Orchard";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { Divider, IconButton, CircularProgress } from "@mui/material";

@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import Divider from "@mui/material/Divider";
 import Box from "@mui/material/Box";
 import { Switch } from "@mui/material";
-import { Spinner, Typography } from "@codat/orchard-ui";
+import { Spinner, Typography } from "../Orchard";
 import s from "../styles/Bills.module.css";
 import { boxStyling } from "../styles/Bills.styling";
 

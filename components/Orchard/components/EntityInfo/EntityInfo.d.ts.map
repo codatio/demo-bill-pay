@@ -1,0 +1,1 @@
+{"version":3,"file":"EntityInfo.d.ts","sourceRoot":"","sources":["../../../src/components/EntityInfo/EntityInfo.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAK/B,MAAM,WAAW,eAAe;IAC9B;;MAEE;IACF,KAAK,EAAE,KAAK,CAAC,SAAS,CAAC;IACvB;;MAEE;IACF,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAC;IAC1B,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB;AAED,eAAO,MAAM,UAAU,6IAYrB,CAAC"}

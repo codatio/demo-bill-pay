@@ -7,7 +7,7 @@ import { modalStyling, closeButtonStyling } from "../../../../Modal.styling";
 import { TitleWithSubHeadings } from "../../../../../../../TitleWithSubHeadings";
 import Divider from "@mui/material/Divider";
 import { InformationPanel } from "../../components/InformationPanel/InformationPanel";
-import { CloseIcon, Button } from "@codat/orchard-ui";
+import { CloseIcon, Button } from "../Orchard";
 import { BillItemInformationTable } from "../BillItemInformationTable/BillItemInformationTable";
 import { TotalBreakDownTable } from "../TotalBreakdownTable/TotalBreakdownTable";
 import { BillModalContext } from "../../../../../../../ModalStore";

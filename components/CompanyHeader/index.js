@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./CompanyHeader.module.css";
-import { BankIcon, Typography, Button } from "@codat/orchard-ui";
+import { BankIcon, Typography, Button } from "../Orchard";
 
 export const CompanyHeader = () => {
   const handleLogout = () => {

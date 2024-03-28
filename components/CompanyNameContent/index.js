@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, TextInput, Typography } from "@codat/orchard-ui";
+import { Button, TextInput, Typography } from "../Orchard";
 import "../../node_modules/@codat/orchard-ui/dist/index.css";
 import s from "./CompanyNameContent.module.css";
 import axios from "axios";

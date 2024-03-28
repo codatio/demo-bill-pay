@@ -1,4 +1,4 @@
-import { CheckIcon, IndicatorPill } from "@codat/orchard-ui";
+import { CheckIcon, IndicatorPill } from "../Orchard";
 import React from "react";
 import s from "./Indicator.module.css";
 

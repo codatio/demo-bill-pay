@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Footer.module.css";
-import { Typography } from "@codat/orchard-ui";
+import { Typography } from "../Orchard";
 
 export const Footer = () => {
   return (

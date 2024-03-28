@@ -1,7 +1,6 @@
 import React from "react";
-import "../../node_modules/@codat/orchard-ui/dist/index.css";
 import s from "./LandingPageContent.module.css";
-import { BankIcon, Typography, Button } from "@codat/orchard-ui";
+import { BankIcon, Typography, Button } from "../Orchard";
 import Box from "@mui/material/Box";
 import { circleStyling } from "./Styles.styling";
 

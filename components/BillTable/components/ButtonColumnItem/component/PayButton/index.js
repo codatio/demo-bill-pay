@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@codat/orchard-ui";
+import { Button } from "../Orchard";
 import s from "./PayButton.module.css";
 import { BillModalContext } from "../../../../../ModalStore";
 import { useContext } from "react";

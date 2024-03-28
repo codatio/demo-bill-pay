@@ -1,5 +1,5 @@
 import React from "react";
-import { Checkbox, TextInput, Typography } from "@codat/orchard-ui";
+import { Checkbox, TextInput, Typography } from "../Orchard";
 import s from "./PayModalFields.module.css";
 import { CardIcon } from "../../../../../../../CardIcon";
 import { AccountNameField } from "../AccountNameField/AccountNameField";

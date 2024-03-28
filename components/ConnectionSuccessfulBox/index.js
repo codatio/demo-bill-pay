@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./ConnectionSuccessfulBox.module.css";
-import { CircleCheckIcon, Typography, Button } from "@codat/orchard-ui";
+import { CircleCheckIcon, Typography, Button } from "../Orchard";
 import "../../node_modules/@codat/orchard-ui/dist/index.css";
 
 export const ConnectionSuccessfulBox = () => {

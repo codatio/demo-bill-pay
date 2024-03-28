@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/PieChart/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,WAAW,CAAC;AAE5C,oBAAY,YAAY,GAAG,eAAe,GAAG;IAAE,KAAK,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,MAAM,CAAA;CAAE,CAAC;AAE9E,oBAAY,YAAY,GAAG,YAAY,EAAE,CAAC"}
