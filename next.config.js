@@ -4,7 +4,7 @@ module.exports = {
     CODAT_PRE_URL: process.env.CODAT_PRE_URL,
     CODAT_AUTH_HEADER: process.env.CODAT_AUTH_HEADER,
   },
-  images: {
-    domains: ["www.theodo.co.uk"],
-  },
+  experimental: {
+    esmExternals: false
+  }
 };
