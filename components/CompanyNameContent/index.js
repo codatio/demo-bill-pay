@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react";
 import { Button, TextInput, Typography } from "../Orchard";
 import s from "./CompanyNameContent.module.css";
